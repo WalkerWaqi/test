@@ -1,0 +1,10 @@
+
+
+
+var keyth=require('keythereum')
+var keyobj=keyth.importFromFile("","")
+var privateKey=keyth.recover("your_password",keyobj)
+privateKey.toString('hex')
+
+
+
